@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC5962B269CB8D4003831CD /* AntHillWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5962A269CB8D4003831CD /* AntHillWorldApp.swift */; };
+		2FC5962D269CB8D4003831CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5962C269CB8D4003831CD /* ContentView.swift */; };
+		2FC5962F269CB8D7003831CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC5962E269CB8D7003831CD /* Assets.xcassets */; };
+		2FC59632269CB8D7003831CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC59631269CB8D7003831CD /* Preview Assets.xcassets */; };
+		2FC5963D269CB8D7003831CD /* AntHillWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5963C269CB8D7003831CD /* AntHillWorldTests.swift */; };
+		2FC59648269CB8D7003831CD /* AntHillWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59647269CB8D7003831CD /* AntHillWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC59639269CB8D7003831CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC5961F269CB8D4003831CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC59626269CB8D4003831CD;
+			remoteInfo = AntHillWorld;
+		};
+		2FC59644269CB8D7003831CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC5961F269CB8D4003831CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC59626269CB8D4003831CD;
+			remoteInfo = AntHillWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC59627269CB8D4003831CD /* AntHillWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntHillWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC5962A269CB8D4003831CD /* AntHillWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntHillWorldApp.swift; sourceTree = "<group>"; };
+		2FC5962C269CB8D4003831CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FC5962E269CB8D7003831CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC59631269CB8D7003831CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FC59633269CB8D7003831CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC59638269CB8D7003831CD /* AntHillWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntHillWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC5963C269CB8D7003831CD /* AntHillWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntHillWorldTests.swift; sourceTree = "<group>"; };
+		2FC5963E269CB8D7003831CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC59643269CB8D7003831CD /* AntHillWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntHillWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC59647269CB8D7003831CD /* AntHillWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntHillWorldUITests.swift; sourceTree = "<group>"; };
+		2FC59649269CB8D7003831CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC59624269CB8D4003831CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC59635269CB8D7003831CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC59640269CB8D7003831CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC5961E269CB8D4003831CD = {
+			isa = PBXGroup;
+			children = (
+				2FC59629269CB8D4003831CD /* AntHillWorld */,
+				2FC5963B269CB8D7003831CD /* AntHillWorldTests */,
+				2FC59646269CB8D7003831CD /* AntHillWorldUITests */,
+				2FC59628269CB8D4003831CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC59628269CB8D4003831CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC59627269CB8D4003831CD /* AntHillWorld.app */,
+				2FC59638269CB8D7003831CD /* AntHillWorldTests.xctest */,
+				2FC59643269CB8D7003831CD /* AntHillWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC59629269CB8D4003831CD /* AntHillWorld */ = {
+			isa = PBXGroup;
+			children = (
+				2FC5962A269CB8D4003831CD /* AntHillWorldApp.swift */,
+				2FC5962C269CB8D4003831CD /* ContentView.swift */,
+				2FC5962E269CB8D7003831CD /* Assets.xcassets */,
+				2FC59633269CB8D7003831CD /* Info.plist */,
+				2FC59630269CB8D7003831CD /* Preview Content */,
+			);
+			path = AntHillWorld;
+			sourceTree = "<group>";
+		};
+		2FC59630269CB8D7003831CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FC59631269CB8D7003831CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FC5963B269CB8D7003831CD /* AntHillWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC5963C269CB8D7003831CD /* AntHillWorldTests.swift */,
+				2FC5963E269CB8D7003831CD /* Info.plist */,
+			);
+			path = AntHillWorldTests;
+			sourceTree = "<group>";
+		};
+		2FC59646269CB8D7003831CD /* AntHillWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC59647269CB8D7003831CD /* AntHillWorldUITests.swift */,
+				2FC59649269CB8D7003831CD /* Info.plist */,
+			);
+			path = AntHillWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC59626269CB8D4003831CD /* AntHillWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC5964C269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorld" */;
+			buildPhases = (
+				2FC59623269CB8D4003831CD /* Sources */,
+				2FC59624269CB8D4003831CD /* Frameworks */,
+				2FC59625269CB8D4003831CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntHillWorld;
+			productName = AntHillWorld;
+			productReference = 2FC59627269CB8D4003831CD /* AntHillWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC59637269CB8D7003831CD /* AntHillWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC5964F269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorldTests" */;
+			buildPhases = (
+				2FC59634269CB8D7003831CD /* Sources */,
+				2FC59635269CB8D7003831CD /* Frameworks */,
+				2FC59636269CB8D7003831CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC5963A269CB8D7003831CD /* PBXTargetDependency */,
+			);
+			name = AntHillWorldTests;
+			productName = AntHillWorldTests;
+			productReference = 2FC59638269CB8D7003831CD /* AntHillWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FC59642269CB8D7003831CD /* AntHillWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC59652269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorldUITests" */;
+			buildPhases = (
+				2FC5963F269CB8D7003831CD /* Sources */,
+				2FC59640269CB8D7003831CD /* Frameworks */,
+				2FC59641269CB8D7003831CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC59645269CB8D7003831CD /* PBXTargetDependency */,
+			);
+			name = AntHillWorldUITests;
+			productName = AntHillWorldUITests;
+			productReference = 2FC59643269CB8D7003831CD /* AntHillWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC5961F269CB8D4003831CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2FC59626269CB8D4003831CD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2FC59637269CB8D7003831CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2FC59626269CB8D4003831CD;
+					};
+					2FC59642269CB8D7003831CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2FC59626269CB8D4003831CD;
+					};
+				};
+			};
+			buildConfigurationList = 2FC59622269CB8D4003831CD /* Build configuration list for PBXProject "AntHillWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC5961E269CB8D4003831CD;
+			productRefGroup = 2FC59628269CB8D4003831CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC59626269CB8D4003831CD /* AntHillWorld */,
+				2FC59637269CB8D7003831CD /* AntHillWorldTests */,
+				2FC59642269CB8D7003831CD /* AntHillWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC59625269CB8D4003831CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC59632269CB8D7003831CD /* Preview Assets.xcassets in Resources */,
+				2FC5962F269CB8D7003831CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC59636269CB8D7003831CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC59641269CB8D7003831CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC59623269CB8D4003831CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC5962D269CB8D4003831CD /* ContentView.swift in Sources */,
+				2FC5962B269CB8D4003831CD /* AntHillWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC59634269CB8D7003831CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC5963D269CB8D7003831CD /* AntHillWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC5963F269CB8D7003831CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC59648269CB8D7003831CD /* AntHillWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC5963A269CB8D7003831CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC59626269CB8D4003831CD /* AntHillWorld */;
+			targetProxy = 2FC59639269CB8D7003831CD /* PBXContainerItemProxy */;
+		};
+		2FC59645269CB8D7003831CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC59626269CB8D4003831CD /* AntHillWorld */;
+			targetProxy = 2FC59644269CB8D7003831CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FC5964A269CB8D7003831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FC5964B269CB8D7003831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC5964D269CB8D7003831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AntHillWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AntHillWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC5964E269CB8D7003831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AntHillWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AntHillWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FC59650269CB8D7003831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				INFOPLIST_FILE = AntHillWorldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntHillWorld.app/AntHillWorld";
+			};
+			name = Debug;
+		};
+		2FC59651269CB8D7003831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				INFOPLIST_FILE = AntHillWorldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntHillWorld.app/AntHillWorld";
+			};
+			name = Release;
+		};
+		2FC59653269CB8D7003831CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				INFOPLIST_FILE = AntHillWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AntHillWorld;
+			};
+			name = Debug;
+		};
+		2FC59654269CB8D7003831CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67SGPRPP86;
+				INFOPLIST_FILE = AntHillWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AntHillWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC59622269CB8D4003831CD /* Build configuration list for PBXProject "AntHillWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC5964A269CB8D7003831CD /* Debug */,
+				2FC5964B269CB8D7003831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC5964C269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC5964D269CB8D7003831CD /* Debug */,
+				2FC5964E269CB8D7003831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC5964F269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC59650269CB8D7003831CD /* Debug */,
+				2FC59651269CB8D7003831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC59652269CB8D7003831CD /* Build configuration list for PBXNativeTarget "AntHillWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC59653269CB8D7003831CD /* Debug */,
+				2FC59654269CB8D7003831CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC5961F269CB8D4003831CD /* Project object */;
+}
