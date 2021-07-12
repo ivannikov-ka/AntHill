@@ -13,6 +13,14 @@
 		2FC59632269CB8D7003831CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC59631269CB8D7003831CD /* Preview Assets.xcassets */; };
 		2FC5963D269CB8D7003831CD /* AntHillWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5963C269CB8D7003831CD /* AntHillWorldTests.swift */; };
 		2FC59648269CB8D7003831CD /* AntHillWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59647269CB8D7003831CD /* AntHillWorldUITests.swift */; };
+		2FC59656269CB904003831CD /* UserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59655269CB904003831CD /* UserInterface.swift */; };
+		2FC59658269CB91F003831CD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59657269CB91F003831CD /* ContentViewModel.swift */; };
+		2FC5965A269CB930003831CD /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59659269CB930003831CD /* Field.swift */; };
+		2FC5965C269CB941003831CD /* AntHill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5965B269CB941003831CD /* AntHill.swift */; };
+		2FC5965E269CB956003831CD /* GameInstanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5965D269CB956003831CD /* GameInstanceProtocol.swift */; };
+		2FC59660269CB967003831CD /* Ant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5965F269CB967003831CD /* Ant.swift */; };
+		2FC59662269CB97A003831CD /* SmallObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59661269CB97A003831CD /* SmallObject.swift */; };
+		2FC59664269CB989003831CD /* AntMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59663269CB989003831CD /* AntMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,15 @@
 		2FC59643269CB8D7003831CD /* AntHillWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntHillWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC59647269CB8D7003831CD /* AntHillWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntHillWorldUITests.swift; sourceTree = "<group>"; };
 		2FC59649269CB8D7003831CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC59655269CB904003831CD /* UserInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterface.swift; sourceTree = "<group>"; };
+		2FC59657269CB91F003831CD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2FC59659269CB930003831CD /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		2FC5965B269CB941003831CD /* AntHill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntHill.swift; sourceTree = "<group>"; };
+		2FC5965D269CB956003831CD /* GameInstanceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInstanceProtocol.swift; sourceTree = "<group>"; };
+		2FC5965F269CB967003831CD /* Ant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ant.swift; sourceTree = "<group>"; };
+		2FC59661269CB97A003831CD /* SmallObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallObject.swift; sourceTree = "<group>"; };
+		2FC59663269CB989003831CD /* AntMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntMark.swift; sourceTree = "<group>"; };
+		2FC59665269CB9A2003831CD /* AntHillWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AntHillWorld.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +112,17 @@
 		2FC59629269CB8D4003831CD /* AntHillWorld */ = {
 			isa = PBXGroup;
 			children = (
+				2FC59665269CB9A2003831CD /* AntHillWorld.entitlements */,
 				2FC5962A269CB8D4003831CD /* AntHillWorldApp.swift */,
 				2FC5962C269CB8D4003831CD /* ContentView.swift */,
+				2FC59655269CB904003831CD /* UserInterface.swift */,
+				2FC59657269CB91F003831CD /* ContentViewModel.swift */,
+				2FC59659269CB930003831CD /* Field.swift */,
+				2FC5965B269CB941003831CD /* AntHill.swift */,
+				2FC5965D269CB956003831CD /* GameInstanceProtocol.swift */,
+				2FC5965F269CB967003831CD /* Ant.swift */,
+				2FC59661269CB97A003831CD /* SmallObject.swift */,
+				2FC59663269CB989003831CD /* AntMark.swift */,
 				2FC5962E269CB8D7003831CD /* Assets.xcassets */,
 				2FC59633269CB8D7003831CD /* Info.plist */,
 				2FC59630269CB8D7003831CD /* Preview Content */,
@@ -259,8 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC59664269CB989003831CD /* AntMark.swift in Sources */,
+				2FC5965A269CB930003831CD /* Field.swift in Sources */,
+				2FC59662269CB97A003831CD /* SmallObject.swift in Sources */,
+				2FC59658269CB91F003831CD /* ContentViewModel.swift in Sources */,
 				2FC5962D269CB8D4003831CD /* ContentView.swift in Sources */,
+				2FC59656269CB904003831CD /* UserInterface.swift in Sources */,
+				2FC5965C269CB941003831CD /* AntHill.swift in Sources */,
 				2FC5962B269CB8D4003831CD /* AntHillWorldApp.swift in Sources */,
+				2FC5965E269CB956003831CD /* GameInstanceProtocol.swift in Sources */,
+				2FC59660269CB967003831CD /* Ant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AntHillWorld/AntHillWorld.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AntHillWorld/Preview Content\"";
 				DEVELOPMENT_TEAM = 67SGPRPP86;
@@ -429,8 +464,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -439,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AntHillWorld/AntHillWorld.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AntHillWorld/Preview Content\"";
 				DEVELOPMENT_TEAM = 67SGPRPP86;
@@ -451,8 +488,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vot.eto.gg.AntHillWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
